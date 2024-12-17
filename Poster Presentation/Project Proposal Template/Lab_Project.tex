@@ -1,0 +1,73 @@
+\documentclass[12pt]{report}
+\usepackage[a4paper, left=3.17cm, right=3.17cm, top=2.54cm, bottom=2.54cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{chemformula}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{tabularx,booktabs}
+\newcolumntype{C}{>{\centering\arraybackslash}X} % centered version of "X" type
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{comment}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\usepackage{cite}
+\usepackage[colorlinks, linkcolor=black, anchorcolor=black, citecolor=black]{hyperref}
+\usepackage{graphicx}
+\setlength{\parskip}{0.5em}
+\title{Place Your Project Title at Here}
+%\author{\textup{Qi YUAN}}
+
+
+%copyright at footer
+\usepackage{fancyhdr}
+\fancyhf{}
+\rfoot{%
+  \footnotesize
+  \textcopyright~Dept. of Computer Science and Engineering, GUB\\
+
+ }
+%\pagestyle{fancy}
+
+
+\begin{document}
+    \input{title/title.tex}
+    \tableofcontents
+  
+
+
+% Chapter 1 starting here.....    
+\newpage
+\chapter{Introduction}
+
+\section{Overview}
+
+\section{Problem Domain}
+\section{Motivation}
+\section{Objective}
+
+
+\chapter{Literature Review}
+
+\chapter{Methodology}
+The block diagram visually organizes these steps into a logical sequence. It uses clearly labeled blocks connected by directional arrows, signifying the flow of work.
+\chapter{Feasibility Study}
+
+\section{Technical Feasibility}
+\section{Operational Feasibility}
+\section{Financial Feasibility}
+\section{Project Management}
+
+\chapter{Social Impact and Benefit}
+\chapter{Conclusion}
+
+% References starts here... 
+\newpage
+\renewcommand\bibname{References}
+\chapter{References}
+\bibliographystyle{unsrt}
+\bibliography{Ref}
+
+\end{document}
